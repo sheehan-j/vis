@@ -1,0 +1,400 @@
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hiderow {
+  display: none;
+}
+
+li.nav-item {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.nav-link, .dropdown-item {
+  font-family: poppins;
+  font-weight: 400;
+  color: lightgray;
+}
+
+.dropdown-item {
+  color: #6E6E6E;
+}
+
+.dropdown-menu {
+}
+
+.dropdown-item:hover {
+  color: black;
+  background-color: white;
+}
+
+.nav-link.nav-active {
+  font-weight: 600;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.footer-link, .footer-link.footer-active {
+  font-family: poppins;
+  font-weight: 200;
+  font-size: 1.19em;
+  color: lightgray;
+}
+
+.footer-link.footer-active {
+  font-weight: 500;
+  color: white;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.content.title-blue, .content.title-lightblue {
+  color: #333E7B;
+  font-family: poppins;
+  font-size: 1.5em;
+  font-weight: 550;
+}
+
+.content.title-lightblue {
+  color: #52B5CF;
+}
+
+.content.body, .content.white-body, .content.green-body, .content.white-body-14, .content.body-14 {
+  color: #717171;
+  font-family: poppins;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+.content.white-body {
+  color: #FFFFFF;
+}
+
+.content.white-body-14 {
+  color: #FFFFFF;
+  font-size: 1.4em;
+}
+
+.content.body-14 {
+  font-size: 1.4em;
+}
+
+.content.green-body {
+  color: #64C275;
+}
+
+
+.content.lightblue-subtitle, .content.green-subtitle, .content.white-subtitle, .content.white-subtitle-sm, .content.subtitle-white-xs {
+  font-family: poppins;
+  font-size: 2.5em;
+  font-weight: 650;
+  color: rgba(82,181,207,1);
+  /* background: -webkit-linear-gradient(rgba(82,181,207,1), rgba(22,16,101,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.content.green-subtitle {
+  color: #64C175;
+  font-size: 3em;
+}
+
+.content.white-subtitle {
+  color: #FFFFFF;
+}
+
+.content.white-subtitle-sm {
+  color: #FFFFFF;
+  font-size: 1.3em;
+  font-weight: 550;
+}
+
+.content.white-subtitle-xs {
+  color: #FFFFFF;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.content.white-title {
+  font-family: poppins;
+  font-size: 4.5em;
+  font-weight: 400;
+  color: white;
+}
+
+.content.configurator-body {
+  font-family: poppins;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #000000;
+}
+
+.content.configure-car-button {
+  font-family: poppins;
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: 350;
+  cursor: pointer;
+}
+
+.sedan.white-title, .sedan.lightblue-title {
+  font-family: poppins;
+  font-size: 2.5em;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.sedan.lightblue-title {
+  color: #52B5CF;
+}
+
+.sedan.white-body, .sedan.body {
+  font-family: poppins;
+  font-size: 1.3em;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.sedan.body {
+  color: #717171;
+}
+
+.sedan.white-subtitle-sm, .sedan.subtitle-sm {
+  font-family: poppins;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+.sedan.subtitle-sm {
+  color: #717171;
+}
+
+.configurator.title, .configurator.title-blue {
+  font-family: poppins;
+  color: #717171;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+a.white {
+  color: white;
+  text-decoration: underline;
+}
+
+a.white:hover {
+  font-weight: 600 !important;
+}
+
+.row.main {
+  /* background: rgb(82,181,207);
+  background: -moz-linear-gradient(135deg, rgba(82,181,207,1) 0%, rgba(22,16,101,1) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(82,181,207,1) 0%, rgba(22,16,101,1) 100%);
+  background: linear-gradient(135deg, rgba(82,181,207,1) 0%, rgba(22,16,101,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#52b5cf",endColorstr="#161065",GradientType=1); */
+  background-color: #52B5CF;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.row.gray {
+  background-color: #F2F2F2;
+}
+
+.row.dark {
+  background-color: #182024;
+}
+
+#vistext-home {
+  width: 70%;
+  position: absolute;
+}
+
+#carpng-home {
+  width: 80%;
+  position: absolute;
+}
+
+.sedan-png {
+  width: 75%;
+}
+
+.suv-png {
+  width: 85%;
+}
+
+.sedan-configurator-section {
+  opacity: 0;
+  display: none;
+}
+
+.sedan-configurator-section.configurator-section-visible {
+  display: flex;
+}
+
+.sedan-selector-section {
+  opacity: 0;
+  display: none;
+}
+
+.sedan-selector-section.selector-section-visible {
+  display: flex;
+}
+
+.color-configurator {
+  width: 70%;
+  display: none;
+  opacity: 0;
+}
+
+.interior-configurator {
+  width: 60%;
+  display: none;
+}
+
+.wheels-configurator {
+  width: 80%;
+  display: none;
+}
+
+.color-visible, .interior-visible, .wheels-visible {
+  display: block;
+}
+
+.selector {
+}
+
+.selector.color-selector-active, .selector.interior-selector-active, .selector.wheels-selector-active {
+  background-color: rgba(20, 20, 20, 0.2);
+}
+
+.sedan-configurator-button {
+  display: none;
+}
+
+.sedan-configurator-button.button-active {
+  display: block;
+}
+
+.no-underline:link {
+  text-decoration: none;
+}
+
+.no-underline:hover > span {
+  font-weight: 450;
+}
+
+/* MD SCREENS AND GREATER */
+@media only screen and (min-width: 992px) {
+  .medium-none {
+    display: none;
+  }
+}
+
+/* SM SCREENS AND BELOW */
+@media only screen and (max-width: 991px) {
+  #vistext-home {
+    width: 85%;
+  }
+  #carpng-home {
+    width: 95%;
+  }
+  .content.white-title {
+    font-size: 4em;
+  }
+  .content.white-subtitle-sm {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: 550;
+  }
+  .sedan.subtitle-sm {
+    font-size: 1.1em;
+    font-weight: 550;
+  }
+  .content.white-subtitle-xs {
+    color: #FFFFFF;
+    font-size: 0.6em;
+    font-weight: 500;
+  }
+  .sedan-png {
+    width: 95%;
+  }
+  .suv-png {
+    width: 120%;
+  }
+  .smaller-medium-none {
+    display: none;
+  }
+  .sedan.white-title, .sedan.lightblue-title {
+    font-size: 2em;
+  }
+  .sedan.white-body, .sedan.body {
+    font-size: 1.1em;
+  }
+  .sedan-configurator {
+    width: 90%;
+  }
+  .content.configurator-button {
+    font-size: 0.9em;
+  }
+  .interior-configurator {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 991px) and (orientation: landscape) {
+  .interior-configurator {
+    width: auto;
+    height: 80%;
+  }
+  .sedan-png {
+    width: 60%;
+  }
+  .suv-png {
+    width: 80%;
+  }
+}
+
+/* XS SCREENS */
+@media only screen and (max-width: 767px) {
+  .content.white-title {
+    font-size: 2.75em;
+  }
+  .content.lightblue-subtitle, .content.green-subtitle, .content.white-subtitle {
+    font-size: 2.25em;
+  }
+  .vis-navbar-md {
+    display: none;
+  }
+  .sedan-specs {
+    display: none;
+  }
+  .content.body-14 {
+    font-size: 1.2em;
+  }
+  .content.white-body-14 {
+    font-size: 1.2em;
+  }
+}
+
+/* PHONES (NOT BOOTSTRAP XS) */
+@media only screen and (max-width: 479px) {
+  .sedan.white-title, .sedan.lightblue-title {
+    font-size: 1.4em;
+  }
+  .sedan.white-body, .sedan.body {
+    font-size: 0.8em;
+  }
+}

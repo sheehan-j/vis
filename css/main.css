@@ -1,0 +1,472 @@
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+::-webkit-scrollbar {
+    display: none;
+}
+nv
+.hiderow {
+  display: none;
+}
+
+li.nav-item {
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+
+.nav-link {
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.nav-link.nav-active {
+  font-weight: 600;
+  color: white;
+}
+
+.nav-link {
+  color: lightgray;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.footer-link, .footer-link.footer-active {
+  font-family: poppins;
+  font-weight: 200;
+  font-size: 1.19em;
+  color: lightgray;
+}
+
+.footer-link.footer-active {
+  font-weight: 500;
+  color: white;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.row.main, .row.team, .row.competitions, .row.activities {
+  background-image: url("/img/home.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.row.team {
+  background-image: url("/img/team.jpg");
+}
+
+.row.competitions {
+  background-image: url("/img/competitions.jpg");
+}
+
+.row.activities {
+  background-image: url("/img/activities.jpg");
+}
+
+.row.gray {
+  background-color: #F4F4F4;
+}
+
+.row.red {
+  background-color: #771C2F;
+}
+
+.row.dark {
+  background-color: #182024;
+}
+
+.row.wonderland, .row.bootcamp, .row.santa {
+  background-image: url("/img/riverwonderland.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.row.bootcamp {
+  background-image: url("/img/bootcamp.jpg");
+}
+
+.row.santa {
+  background-image: url("/img/santa.jpg");
+}
+
+.header-title, .header-title-responsive {
+  font-family: museo-slab, serif;
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 1em;
+  color: white;
+}
+
+.header-subtitle {
+  font-family: poppins;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header-button {
+  border: 0.2rem solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 50px;
+}
+
+.header-button:hover {
+  background-color: white;
+  text-decoration: none;
+  display: none;
+}
+
+.header-button .text {
+  font-family: museo-slab, serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+}
+
+.header-button .text:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.red-header, .red-header-responsive, .white-header, .red-header-small, .white-header-small, .white-header-xs, .white-header-responsive {
+  color: #771C2F;
+  font-family: museo-slab, serif;
+  font-size: 4.25em;
+  font-weight: 800;
+}
+
+.white-header-responsive {
+  color: #FFFFFF;
+}
+
+.red-header-small {
+  font-size: 3em;
+}
+
+.white-header-small {
+  font-size:3em;
+  color: #FFFFFF;
+}
+
+.red-header-small-responsive, .white-header-small-responsive {
+  color: #771c2f;
+  font-family: museo-slab, serif;
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.white-header-small-responsive {
+  color: #FFFFFF;
+}
+
+.white-header-xs {
+  font-size: 2.5em;
+  color: #FFFFFF;
+}
+
+.white-header {
+  color: #FFFFFF;
+}
+
+.black-transparent, .black-transparent-sm {
+  background-color: rgba(0,0,0,0.72);
+  width: 90%;
+}
+
+.black-transparent-sm {
+  width: 65%;
+}
+
+.activites-textbox, .activites-textbox-sm {
+  background-color: #FFFFFF;
+  width: 90%;
+}
+
+.activites-textbox-sm {
+  width: 65%;
+}
+
+.content.title, .content.title-white, .content.title-gray, .content.title-white-responsive {
+  color: #771C2F;
+  font-family: poppins;
+  font-size: 1.5em;
+  font-weight: 550;
+}
+
+.content.title-white {
+  color: #FFFFFF;
+}
+
+.content.title-white-responsive {
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+.content.title-gray {
+  color: #5F5F5F;
+  font-size: 1.16em;
+  font-weight: 500;
+}
+
+.content.body, .content.body-white {
+  color: #717171;
+  font-family: poppins;
+  font-size: 1.1em;
+  font-weight: 200;
+}
+
+.content.dark-subtitle {
+  color: #313131;
+  font-family: poppins;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.content.body-white {
+  color: #FFFFFF;
+}
+
+
+.content.left-border, .content.left-border-white {
+  color: #717171;
+  font-family: poppins;
+  font-size: 1em;
+  font-weight: 300;
+  border-left: 3px solid #771C2F;
+}
+
+.content.left-border-white {
+  border-left: 3px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.content.right-border {
+  color: #717171;
+  font-family: poppins;
+  font-size: 1em;
+  font-weight: 300;
+  border-right: 3px solid #771C2F;
+}
+
+.competitions-carousel  {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 85vh;
+}
+
+.conference-carousel {
+  min-height: 70%;
+}
+
+/* .twoslidecarousel {
+  min-height: 100vh;
+} */
+
+.carousel-control-members, .carousel-control-members.members-active, .carousel-control-engineering, .carousel-control-engineering.engineering-active, .carousel-control-design1, .carousel-control-design1.design1-active, .carousel-control-design2, .carousel-control-design2.design2-active, .carousel-control-modeling, .carousel-control-modeling.modeling-active, .carousel-control-development, .carousel-control-development.development-active, .carousel-control-presentation, .carousel-contol-presentation.presentation-active, .carousel-control-onsite, .carousel-control-onsite.onsite-active {
+  color: #FFFFFF;
+  font-family: poppins;
+  font-size: 1.1em;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.carousel-control-members.members-active, .carousel-control-engineering.engineering-active, .carousel-control-design1.design1-active, .carousel-control-design2.design2-active, .carousel-control-modeling.modeling-active, .carousel-control-development.development-active, .carousel-control-presentation.presentation-active, .carousel-control-onsite.onsite-active {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.carousel-control-members.members-active:hover, .carousel-control-engineering.engineering-active:hover, .carousel-control-design1.design1-active:hover, .carousel-control-design2.design2-active:hover, .carousel-control-modeling.modeling-active:hover, .carousel-control-development.development-active:hover, .carousel-control-presentation.presentation-active:hover, .carousel-control-onsite.onsite-active:hover {
+  font-weight: 600;
+}
+
+/* .carousel-control-members:hover, .carousel-control-engineering:hover, .carousel-control-design1:hover .carousel-control-design2:hover, .carousel-control-modeling:hover, .carousel-control-development:hover, .carousel-control-presentation:hover, .carousel-control-onsite:hover {
+  font-weight: 300;
+} */
+
+.carousel-control-members:hover, .carousel-control-engineering:hover, .carousel-control-design1:hover, .carousel-control-design2:hover, .carousel-control-modeling:hover, .carousel-control-development:hover, .carousel-control-presentation:hover, .carousel-control-onsite:hover {
+  font-weight: 300;
+}
+
+.carousel-controls-div-inner {
+  height: 60%;
+}
+
+#engineeringCarousel-control-div {
+  height: 90%;
+}
+
+#designCarousel-control-div {
+  height: 75%;
+}
+
+#designCarousel2-control-div {
+  height: 75%;
+}
+
+#modelingCarousel-control-div {
+  height: 70%
+}
+
+#developmentCarousel-control-div {
+  height: 70%;
+}
+
+#presentationCarousel-control-div {
+  height: 75%;
+}
+
+#onsiteCarousel-control-div {
+  height: 90%;
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-controls-div {
+    margin-top: -18vh !important;
+  }
+}
+
+.members-content {
+  min-height: 45vh;
+}
+
+.conference-carousel-wrapper {
+  min-height: 100vh;
+}
+
+/* .conference-carousel {
+  margin-right: 5vw !important;
+} */
+
+.engineering-content {
+  height: 41vh;
+}
+
+.design-content {
+  height: 45vh;
+}
+
+.design2-content {
+  height: 37vh;
+}
+
+.modeling-content {
+  height: 35vh;
+}
+
+.development-content {
+   height: 36vh;
+}
+
+.presentation-content {
+  height: 33vh;
+}
+
+.onsite-content {
+  height: 40vh;
+}
+
+@media only screen and (max-width: 479px) {
+  /* .twoslidecarousel {
+    min-height: 110vh;
+  } */
+  .conference-carousel {
+    margin-top: 14vh;
+  }
+  .conference-carousel-wrapper {
+    height: 114vh;
+  }
+  .members-content {
+    height: 70vh;
+  }
+  .engineering-content {
+    height: 62vh;
+  }
+  .design-content {
+    height: 70vh;
+  }
+  .design2-content {
+    height: 58vh;
+  }
+  .modeling-content {
+    height: 50vh;
+  }
+  .development-content {
+    height: 55vh;
+  }
+  .presentation-content {
+    height: 50vh;
+  }
+  .onsite-content {
+    height: 67vh;
+  }
+  .white-header-responsive {
+    font-size: 3.5em;
+  }
+  .red-header-responsive {
+    font-size: 3.5em;
+  }
+  .white-header-small-responsive {
+    font-size: 2.6em;
+  }
+  .red-header-small-responsive {
+    font-size: 2.6em;
+  }
+  .header-title-responsive {
+    font-size: 2.95em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .carousel-controls-div-inner {
+    height: 100%;
+  }
+
+  /* .conference-carousel {
+    margin-right: 0 !important;
+  } */
+
+  .carousel-item.advisor {
+    height: 40vh;
+  }
+
+  .conference-carousel {
+    min-height: 45vh;
+  }
+
+  #engineeringCarousel-control-div {
+    height: 95%;
+  }
+
+  #designCarousel-control-div {
+    height: 90%;
+  }
+
+  #designCarousel2-control-div {
+    height: 98%;
+  }
+
+  #modelingCarousel-control-div {
+    height: 90%
+  }
+
+  #developmentCarousel-control-div {
+    height: 95%;
+  }
+
+  #presentationCarousel-control-div {
+    height: 90%;
+  }
+}
